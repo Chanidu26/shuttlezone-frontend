@@ -10,7 +10,7 @@
   
 @layer components {
     .container {
-        @apply max-w-full w-[1440px] px-5 mx-auto py-2;
+        @apply max-w-full w-[1440px] px-10 mx-auto py-2;
     }
 
     .btn {
@@ -23,6 +23,10 @@
     .text_para {
         @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px];
     }
+    .header {
+
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) {
