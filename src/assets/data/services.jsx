@@ -17,5 +17,16 @@ export const services = [
         bgColor: "rgba(151, 113, 255, .2)",
         textColor: "#9771FF",
       },
-
+      {
+        name: "Secure Payment",
+        desc: "Make hassle-free payments through a secure platform, ensuring your transactions are safe and protected.",
+        bgColor: "rgba(151, 113, 255, .2)",
+        textColor: "#9771FF",
+      },
+      {
+        name: "Real-Time Updates",
+        desc: "Receive instant notifications for court availability and booking confirmations. Stay updated on changes in real-time.",
+        bgColor: "rgba(244, 67, 54, .2)",
+        textColor: "#F44336",
+      },
 ]
