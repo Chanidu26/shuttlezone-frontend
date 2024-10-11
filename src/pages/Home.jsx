@@ -73,10 +73,10 @@ const Home = () => {
       <div className='container'>
         <div className='lg:w-[470px] mx-auto'>
           <h2 className='heading text-center'>
-            Our Services
+            How it works
           </h2>
           <p className='text_para text-center'>
-            What we Offer
+            What you can get from us
           </p>
         </div>
 
@@ -89,9 +89,9 @@ const Home = () => {
             </div>
 
             <div className='mt-[30px]'>
-              <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>Find a Court</h2>
+              <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>Find or Create a Court</h2>
               <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                Find a court near you.
+                Find court near you and create your own court
               </p>
 
               <Link to = '/courts' className='w-[44px] h-[44px] rounded-full border border-solid border-black
@@ -107,9 +107,9 @@ const Home = () => {
             </div>
 
             <div className='mt-[30px]'>
-              <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>Find a Location</h2>
+              <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>Find Court Location</h2>
               <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                Find a court near you.
+                Find Location of the courts
               </p>
 
               <Link to = '/courts' className='w-[44px] h-[44px] rounded-full border border-solid border-black 
@@ -125,9 +125,9 @@ const Home = () => {
             </div>
 
             <div className='mt-[30px]'>
-              <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>Book a Court</h2>
+              <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>Book your Court</h2>
               <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                Find a court near you.
+                Book your court with secure payments
               </p>
 
               <Link to = '/courts' className='w-[44px] h-[44px] rounded-full border border-solid border-black 
