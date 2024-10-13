@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 import About from '../components/About/About'
 import ServiceList from '../components/Services/ServiceList'
+import Testimonial from '../components/Testimonial/Testimonial'
 const Home = () => {
   return (
     <>
@@ -159,6 +160,21 @@ const Home = () => {
         </div>
 
         <ServiceList/>
+      </div>
+    </section>
+
+    {/*testimonials section*/}
+    <section>
+      <div className='container'>
+       <div className='xl:w-[470] mx-auto'>
+        <h4 className='heading text-center'>What our clients Say</h4>
+        <p className='text_para text-center'>
+          what are peoples ideas
+        </p>
+       </div>
+
+       <Testimonial/>
+
       </div>
     </section>
     </>

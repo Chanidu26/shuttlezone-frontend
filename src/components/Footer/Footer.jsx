@@ -23,6 +23,24 @@ const Footer = () => {
       icon : <RiLinkedinFill className='group-hover:text-white w-4 h-5'/>
     }
   ]
+  const quickLinks = [
+    {
+      path : "/",
+      title : "Home"
+    },
+    {
+      path : "/about",
+      title : "About"
+    },
+    {
+      path : "/contact",
+      title : "Contact"
+    },
+    {
+      path : "/login",
+      title : "Login"
+    }
+  ]
   const year = new Date().getFullYear()
   return (
     <footer className='pb-16 pt-10 bg-slate-100'>
