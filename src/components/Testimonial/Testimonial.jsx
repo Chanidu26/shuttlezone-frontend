@@ -26,11 +26,120 @@ const Testimonial = () => {
            }}
            >
            <SwiperSlide>
-            <div className='py-[30px] px-5 rounded-[13px]'>
-                <img src={avatar} alt=""/>
-                <div><h4 className='text-[18px] leading-[30px] font-semibold'>Sahan Kavinda</h4></div>
-            </div>
+              <div className='py-[30px] px-5 rounded-3'>
+                <div className='flex items-center gap-[13px]'>
+                    <img src={avatar} alt=''/>
+                    <div>
+                        <h4 className='text-[18px] leading-[30px] font-semibold text-headingColor'>
+                        Sahan Kavinda
+                        </h4>
+                        <div className='flex items-center gap-[2px]'>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                        </div>
+                    </div>
+                </div>
+                <p className='text-[16px] leading-7 mt-4 text-textColor font-[400]'>
+                  "Highly Recommended! for everyone who wants to play"
+                </p>
+              </div>
            </SwiperSlide>
+
+           <SwiperSlide>
+              <div className='py-[30px] px-5 rounded-3'>
+                <div className='flex items-center gap-[13px]'>
+                    <img src={avatar} alt=''/>
+                    <div>
+                        <h4 className='text-[18px] leading-[30px] font-semibold text-headingColor'>
+                        Sahan Kavinda
+                        </h4>
+                        <div className='flex items-center gap-[2px]'>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                        </div>
+                    </div>
+                </div>
+                <p className='text-[16px] leading-7 mt-4 text-textColor font-[400]'>
+                  "This platform is good and very user friendly platform"
+                </p>
+              </div>
+           </SwiperSlide>
+          
+           <SwiperSlide>
+              <div className='py-[30px] px-5 rounded-3'>
+                <div className='flex items-center gap-[13px]'>
+                    <img src={avatar} alt=''/>
+                    <div>
+                        <h4 className='text-[18px] leading-[30px] font-semibold text-headingColor'>
+                        Sahan Kavinda
+                        </h4>
+                        <div className='flex items-center gap-[2px]'>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                        </div>
+                    </div>
+                </div>
+                <p className='text-[16px] leading-7 mt-4 text-textColor font-[400]'>
+                  "This platform is good and very user friendly"
+                </p>
+              </div>
+           </SwiperSlide>
+
+           <SwiperSlide>
+              <div className='py-[30px] px-5 rounded-3'>
+                <div className='flex items-center gap-[13px]'>
+                    <img src={avatar} alt=''/>
+                    <div>
+                        <h4 className='text-[18px] leading-[30px] font-semibold text-headingColor'>
+                        Sahan Kavinda
+                        </h4>
+                        <div className='flex items-center gap-[2px]'>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                        </div>
+                    </div>
+                </div>
+                <p className='text-[16px] leading-7 mt-4 text-textColor font-[400]'>
+                  "This platform is good and very user friendly"
+                </p>
+              </div>
+           </SwiperSlide>
+
+           <SwiperSlide>
+              <div className='py-[30px] px-5 rounded-3'>
+                <div className='flex items-center gap-[13px]'>
+                    <img src={avatar} alt=''/>
+                    <div>
+                        <h4 className='text-[18px] leading-[30px] font-semibold text-headingColor'>
+                        Sahan Kavinda
+                        </h4>
+                        <div className='flex items-center gap-[2px]'>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                            <HiStar className='text-yellowColor w-[18px] h-5'/>
+                        </div>
+                    </div>
+                </div>
+                <p className='text-[16px] leading-7 mt-4 text-textColor font-[400]'>
+                  "This platform is good and very user friendly"
+                </p>
+              </div>
+           </SwiperSlide>
+
         </Swiper>
     </div>
   )
