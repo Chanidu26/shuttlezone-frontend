@@ -32,7 +32,7 @@ const Contact = () => {
               placeholder='Lets us know how we can help you?'
             />
           </div>
-          <div>
+          <div className='sm:col-span-2'>
             <label htmlFor='message' className='form_label'>
               Your message
             </label>
