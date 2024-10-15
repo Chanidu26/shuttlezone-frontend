@@ -22,14 +22,27 @@ const Contact = () => {
           </div>
 
           <div>
-            <label htmlFor='email' className='form_label'>
-              Message
+            <label htmlFor='subject' className='form_label'>
+              Subject
             </label>
             <input
-              type='email'
-              id='email'
+              type='text'
+              id='subject'
               className='form_input mt-1'
-              placeholder='Enter your email'
+              placeholder='Lets us know how we can help you?'
+            />
+          </div>
+          <div>
+            <label htmlFor='message' className='form_label'>
+              Your message
+            </label>
+            <textarea
+              rows = '6'
+              type='text'
+              id='message'
+              className='form_input mt-1'
+              placeholder='Leave a comment...'
+            
             />
           </div>
         </form>
