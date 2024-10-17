@@ -36,7 +36,7 @@ const Login = () => {
               Login
             </button>
           </form>
-          <p className='text_para text-center'>You dont have account?</p>
+          <p className='text_para text-center'>You dont have account? <a className='text-primaryColor' href='/signup'>Signup</a>'</p>
           
 
       </div>

@@ -45,6 +45,7 @@ const Contact = () => {
             
             />
           </div>
+          <button type='submit' className='btn rounded sm:w-fit'>Submit</button>
         </form>
 
       </div>
