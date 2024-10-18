@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import star from '../../assets/images/Star.png'
-
+import Feedback from './Feedback';
 // Array of images for the court
 const courtImages = [
   "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
@@ -95,9 +95,7 @@ const CourtDetails = () => {
         </p>
       </div>
 
-      <div className='mt-10'>
-        <h3 className="text-2xl font-semibold mb-2">Reviews</h3>
-      </div>
+      <Feedback/>
     </section>
   );
 };
